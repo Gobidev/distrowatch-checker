@@ -1,5 +1,5 @@
 # distrowatch-checker
-A small python scripts that checks distrowatch.com for news and sends discord webhook notifications for new ones.
+A small python script that checks distrowatch.com for news and sends discord webhook notifications for new ones.
 
 
 ## How to Run
