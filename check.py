@@ -1,6 +1,7 @@
 import xmltodict
 import requests
 import json
+import time
 import os.path
 from discord_webhook import DiscordWebhook, DiscordEmbed
 import SECRETS
@@ -48,6 +49,7 @@ def send_webhook(news_event: NewsEvent):
     embed.set_footer(text=news_event.time)
     webhook.add_embed(embed)
     webhook.execute()
+    time.sleep(1)
 
 
 def save_events_to_file(news_events: list):
