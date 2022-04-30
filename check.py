@@ -40,7 +40,7 @@ def convert_dicts_to_objects(news: list) -> list:
 
 
 def get_events() -> list:
-    return convert_dicts_to_objects(filter_news_entries(fetch_current_distro_news()))
+    return list(reversed(convert_dicts_to_objects(filter_news_entries(fetch_current_distro_news()))))
 
 
 def send_webhook(news_event: NewsEvent):
