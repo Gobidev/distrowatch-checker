@@ -23,7 +23,7 @@ class NewsEvent:
     def __eq__(self, other: object) -> bool:
         if not isinstance(other, NewsEvent):
             return False
-        return other.__dict__ == self.__dict__
+        return other.title == self.title
 
 
 def fetch_current_distro_news() -> dict:
