@@ -6,7 +6,7 @@ webhook notifications for new ones.
 # IMPORTANT
 
 This is no longer maintained, use
-[rss-discord](git@github.com:Gobidev/distrowatch-checker.git) instead.
+[rss-discord](https://github.com/Gobidev/rss-discord) instead.
 
 ## How to Run
 
