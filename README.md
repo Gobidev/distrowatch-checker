@@ -1,8 +1,16 @@
 # distrowatch-checker
-A small python script that checks distrowatch.com for news and sends discord webhook notifications for new ones.
 
+A small python script that checks distrowatch.com for news and sends discord
+webhook notifications for new ones.
+
+# IMPORTANT
+
+This is no longer maintained, use
+[rss-discord](git@github.com:Gobidev/distrowatch-checker.git) instead.
 
 ## How to Run
+
 1. Install the requirements
-2. Create a SECRETS.py file containing a variable called `WEBHOOK_URL` that is set to the discord webhook you want to use for notifications.
+2. Create a SECRETS.py file containing a variable called `WEBHOOK_URL` that is
+   set to the discord webhook you want to use for notifications.
 3. Run the script periodically, I recommend cron for automation.
